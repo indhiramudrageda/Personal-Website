@@ -52,7 +52,7 @@ $(document).ready(function(){
 
  	$("#projects .card").click(function(){
 			var modal = $('#myModal');
-  			modal.css('display', 'block');
+  			modal.css('display', 'flex');
   			var desc = $(this).children('.description').html();
   			modal.children("#modal-content").html(desc);
 			var span = document.getElementsByClassName("close")[0];
